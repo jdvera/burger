@@ -13,7 +13,6 @@ $(function() {
       data: newDevouredState
     }).then(
       function() {
-        console.log("changed sleep to true, i think");
         location.reload();
       }
     );
@@ -32,7 +31,6 @@ $(function() {
       data: newBurger
     }).then(
       function() {
-        console.log("created new burger");
         location.reload();
       }
     );
