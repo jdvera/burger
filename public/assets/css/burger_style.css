@@ -9,6 +9,13 @@ body {
 	font-weight: bold;
 }
 
+#wrapper {
+	max-width: 800px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 h1 {
 	font-size: 50px;
 	text-align: center;
@@ -20,12 +27,11 @@ h2 {
 	margin-bottom: 0px;
 }
 
-#bob {
-	padding-left: 32.5%;
-}
-
 img {
-    width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 300px;
 }
 
 #lists {
