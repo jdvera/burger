@@ -7,7 +7,8 @@ var router = express.Router();
 
 router.get("/", function(req, res) {
   burger.all(function(data) {
-    var hbsObject = { burgers_obj: data };
+    var hbsObject = { burgers: data };
+    console.log("\n--- burgers_controller.js hbsObject\n");
     console.log(hbsObject);
     res.render("index", hbsObject);
   });
