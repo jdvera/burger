@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var exphbs = require("express-handlebars");
 
 var app = express();
-var port = 3007;
+var port = process.env.PORT || 3007;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
